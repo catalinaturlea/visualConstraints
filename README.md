@@ -20,10 +20,24 @@ it, simply add the following line to your Podfile:
 pod "VisualConstraints"
 ```
 
+## Usage
+
 To use the Categories in your project make sure to use 
 
 ```ruby
 #import <VisualConstraints/VisualConstraints.h>
+```
+
+The methods to add constraints to UI elements are pretty straight forward and easy to use:
+
+```
+let contentView = UIView()
+self.view.addSubview(contentView)
+
+// Add the constraints
+contentView.addConstraintsForWidth(300)
+contentView.addConstraintsForHeight(200)
+contentView.addConstraintsToCenter() 
 ```
 
 ## Author
