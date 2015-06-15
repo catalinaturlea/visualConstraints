@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
                        The Pod provides methods to easily add and debug constraints programmatically. It includes methods for the most commonly used layouting of UI elements. The Pod also includes methods to ease the use of scrollviews and autolayout.
 
                        DESC
-  s.homepage         = "https://github.com/catalinaturlea/visualConstraints"
+  s.homepage         = "https://github.com/catalinaturlea/VisualConstraints"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Catalina Turlea" => "catalina.turlea@gmail.com" }
-s.source           = { :git => "https://github.com/catalinaturlea/visualConstraints.git", :tag => "1.0.0", :commit => "1c4e69ad2aa2ddd3fddb262daf404517bb63e180" }
+s.source           = { :git => "https://github.com/catalinaturlea/VisualConstraints.git", :tag => "1.0.0" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'

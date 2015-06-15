@@ -20,6 +20,12 @@ it, simply add the following line to your Podfile:
 pod "VisualConstraints"
 ```
 
+To use the Categories in your project make sure to use 
+
+```ruby
+#import <VisualConstraints/VisualConstraints.h>
+```
+
 ## Author
 
 Catalina Turlea, catalina.turlea@gmail.com
