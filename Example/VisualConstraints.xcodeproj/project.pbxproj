@@ -27,6 +27,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		A2191701D9ACB17DD1661D8B /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F81A4FF924F0A8EA5089BD01 /* libPods-Tests.a */; };
+		BD4F05B61BABF01100441298 /* AutolayoutWorkshopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4F05B51BABF01100441298 /* AutolayoutWorkshopViewController.swift */; };
 		DE4C3E7B3107735BC1DEC6A3 /* libPods-VisualConstraints.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E318DCD4D5A711FE33951C /* libPods-VisualConstraints.a */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +78,7 @@
 		61EDDED9463EAE76DA2EEC58 /* Pods-VisualConstraints.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisualConstraints.release.xcconfig"; path = "Pods/Target Support Files/Pods-VisualConstraints/Pods-VisualConstraints.release.xcconfig"; sourceTree = "<group>"; };
 		6F3C4F8F99D32431D8D27F43 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		92E318DCD4D5A711FE33951C /* libPods-VisualConstraints.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VisualConstraints.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4F05B51BABF01100441298 /* AutolayoutWorkshopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutolayoutWorkshopViewController.swift; sourceTree = "<group>"; };
 		F81A4FF924F0A8EA5089BD01 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -118,6 +120,7 @@
 				4E04D6061AEFD4D100D51ADA /* VCExampleTableViewController.m */,
 				4EECFD631AF5172D00742D63 /* SwiftViewControllers.swift */,
 				4EECFD621AF5172C00742D63 /* VisualConstraints-Bridging-Header.h */,
+				BD4F05B51BABF01100441298 /* AutolayoutWorkshopViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -396,6 +399,7 @@
 				6003F5A7195388D20070C39A /* VCScrollViewExampleViewController.m in Sources */,
 				4E04D6071AEFD4D100D51ADA /* VCExampleTableViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				BD4F05B61BABF01100441298 /* AutolayoutWorkshopViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
