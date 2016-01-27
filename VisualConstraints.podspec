@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "VisualConstraints"
-  s.version          = "1.0.0"
+  s.version          = "1.1.0"
   s.summary          = "Small library for making it easy to programmatically add constraints"
   s.description      = <<-DESC
                        The Pod provides methods to easily add and debug constraints programmatically. It includes methods for the most commonly used layouting of UI elements. The Pod also includes methods to ease the use of scrollviews and autolayout.
@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Catalina Turlea" => "catalina.turlea@gmail.com" }
-s.source           = { :git => "https://github.com/catalinaturlea/VisualConstraints.git", :tag => "1.0.0" }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/catalinaturlea/VisualConstraints.git", :tag => "1.1.0" }
+  s.social_media_url = 'https://twitter.com/CatalinaTurlea'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true

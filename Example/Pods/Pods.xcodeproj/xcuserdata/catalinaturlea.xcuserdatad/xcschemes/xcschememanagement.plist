@@ -4,95 +4,65 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-Tests-CocoaLumberjack.xcscheme</key>
+		<key>CocoaLumberjack.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-Tests-FBSnapshotTestCase.xcscheme</key>
+		<key>FBSnapshotTestCase.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
-		<key>Pods-Tests-VisualConstraints-VisualConstraints.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>5</integer>
-		</dict>
-		<key>Pods-Tests-VisualConstraints.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-Tests.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>Pods-VisualConstraints-CocoaLumberjack.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>7</integer>
-		</dict>
-		<key>Pods-VisualConstraints-VisualConstraints-VisualConstraints.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>9</integer>
-		</dict>
-		<key>Pods-VisualConstraints-VisualConstraints.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>8</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-VisualConstraints.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>6</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>VisualConstraints-VisualConstraints.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>VisualConstraints.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0F3CCA893069BCA2271260CC</key>
+		<key>12E2BC28C62976C425F4B71C2723F0B1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>147A37F0F40A90A3E387872E</key>
+		<key>5B8056E29341C1FEA5962FD39DA51531</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>287CE2486C185F8A30DB3FF4</key>
+		<key>E8A9A413292512FE6713188549CD6279</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>76E5E7172E5BF40E308FFBA6</key>
+		<key>ED7568A42EA0168EAF0FE247C7EA0DB7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8227E41308876981211EDBDC</key>
+		<key>EE7CC62ED435F9274A492A560914940F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8898330F4454B73F9885A3CA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>98E6395E5947D7590C6BCD8D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AD88E6338963E8CCCA490409</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>BDEB3580FDABD21B53FA86E4</key>
+		<key>FDA44CC896720E68A594E0B9AF199B1D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
