@@ -1,10 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
 
-target 'VisualConstraints', :exclusive => true do
+target 'VisualConstraints' do
   pod "VisualConstraints", :path => "../"
 end
 
-target 'Tests', :exclusive => true do
+target 'Tests' do
   pod "VisualConstraints", :path => "../"
 
   pod 'FBSnapshotTestCase'

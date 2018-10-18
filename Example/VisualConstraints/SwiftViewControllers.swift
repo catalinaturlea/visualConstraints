@@ -16,31 +16,31 @@ class SwiftExampleViewController: UIViewController {
         self.view.addSubview(contentView)
         
         // Add the constraints
-        contentView.addConstraintsForWidth(300)
-        contentView.addConstraintsForHeight(200)
+        contentView.addConstraints(forWidth: 300)
+        contentView.addConstraints(forWidth: 200)
         contentView.addConstraintsToCenter()
-        contentView.backgroundColor = UIColor.redColor()
+        contentView.backgroundColor = UIColor.red
         contentView.translatesAutoresizingMaskIntoConstraints = false
         
         // Adding a label to the contentView
         let label = UILabel()
         contentView.addSubview(label)
-        label.backgroundColor = UIColor.whiteColor()
+        label.backgroundColor = UIColor.white
         
-        label.addConstraintsToAlignLeftWithOffset(10)
-        label.addConstraintsToAlignTopWithOffset(20)
+        label.addConstraintsToAlignLeft(withOffset: 10)
+        label.addConstraintsToAlignTop(withOffset: 20)
         label.text = "Left aligned label"
         
         // Adding a label to the contentView
         let label2 = UILabel()
         contentView.addSubview(label2)
-        label2.backgroundColor = UIColor.whiteColor()
+        label2.backgroundColor = UIColor.white
         
-        label2.addConstraintsToFillHorizontalWithLeftPadding(10, rightPadding:10)
+        label2.addConstraintsToFillHorizontal(withLeftPadding: 10, rightPadding:10)
         label2.text = "Full width label"
-        label.addConstraintsForVerticalOffset(20, toView:label2)
+        label.addConstraints(forVerticalOffset: 20, to:label2)
         
         let image = UIImageView()
-        image.highlighted = true;
+        image.isHighlighted = true;
     }
 }

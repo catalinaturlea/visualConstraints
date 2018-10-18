@@ -36,7 +36,7 @@ self.view.addSubview(contentView)
 
 // Add the constraints
 contentView.addConstraintsForWidth(300)
-contentView.addConstraintsForHeight(200)
+contentView.addConstraints(forWidth: 200)
 contentView.addConstraintsToCenter() 
 ```
 
